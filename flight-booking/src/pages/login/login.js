@@ -5,7 +5,7 @@ import { firebaseAuth } from "../../backend/firebaseHandler";
 import { useNavigate } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
 
-const SignIn =() => {
+const Login =() => {
     const nav = useNavigate();
     const [load, setLoad] = useState(false)
 
@@ -72,4 +72,4 @@ const SignIn =() => {
     )
 }
 
-export default SignIn;
+export default Login;
