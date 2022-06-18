@@ -7,7 +7,7 @@ import { firebaseAuth, firebaseDatabase } from "../../backend/firebaseHandler";
 
 import './Book.css';
 
-const UserDashBoard = () => {
+const TicketBook = () => {
   const navigate = useNavigate();
 
   const [flightList,setFlightList] = useState([]);
@@ -98,4 +98,4 @@ const UserDashBoard = () => {
     )
 }
 
-export default UserDashBoard;
+export default TicketBook;
