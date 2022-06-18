@@ -61,7 +61,7 @@ const Login =() => {
             <br/><br/>
         </div>
         <div style={{position:"absolute" , left:"50%", right:"50%", transform:"translate(-50%)", width:"400px"}}>
-            <p>Enter your Log in credentials to acces your account</p>
+            <p>Enter your Log in credentials to access your account</p>
             <TextField name="email" value={userData.email} onChange={HandleChange} variant="outlined" id="outlined-basic" type={"email"} label="Email"  sx={{height:"40px", width:"400px", marginTop:"20px",marginBottom:"20px"}}/>
             <TextField name="password" value={userData.password} onChange={HandleChange} variant="outlined" id="outlined-basic" type={"password"} label="Password"  sx={{height:"40px", width:"400px", marginTop:"30px",marginBottom:"20px"}}/>
             <Button disabled={load} onClick={HandleClick} variant="contained" sx={{height:"50px", width:"230px", marginLeft:"85px", marginTop:"30px"}}>Login</Button>
