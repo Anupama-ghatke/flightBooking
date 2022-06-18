@@ -38,7 +38,7 @@ const BookingList = () => {
                         </div>
                         <div>
                             <p>Phone Number</p>
-                            <h2>{user.phno}</h2>
+                            <h2>{user.phoneNo}</h2>
                         </div>
                         <div>
                             <p>Email Id</p>
